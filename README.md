@@ -1,14 +1,14 @@
 # frontend-practice
 
 ## Tiêu đề bài tập
-**Frontend 1.3: PSD to HTML. **
+**Frontend 1.3: PSD to HTML.**
 - Link githubpage : [Demo] (https://minh71297.github.io/frontend-practice)
 
 Thực hiện bởi [Trần Tuấn Minh](https://github.com/minh71297)
 
 ## Liên kết
-- [PSD to html example 1] (https://www.youtube.com/watch?v=d_llyPvEBrU)
-- [PSD to html example 2] (https://www.youtube.com/watch?v=7W0FMV608qI)
+- [PSD to html example 1](https://www.youtube.com/watch?v=d_llyPvEBrU)
+- [PSD to html example 2](https://www.youtube.com/watch?v=7W0FMV608qI)
 
 ## Kiến thức nắm được
 - Sử dụng Photoshop để cắt ảnh, chuyển từ layer sang ảnh.
