@@ -2,7 +2,7 @@
 
 ## Tiêu đề bài tập
 **Frontend 1.3: PSD to HTML.**
-- Link githubpage : [Demo] (https://minh71297.github.io/frontend-practice)
+- Link githubpage : [Demo](https://minh71297.github.io/frontend-practice)
 
 Thực hiện bởi [Trần Tuấn Minh](https://github.com/minh71297)
 
