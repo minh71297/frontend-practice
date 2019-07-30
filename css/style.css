@@ -40,13 +40,13 @@
 }
 
 body {
-	width: 1170px;
+	width: 1920px;
 	margin: 0px auto;
 }
 
 header {
 	height: 208px;
-	width: 1170px;
+	width: 1920px;
 	
 }
 
@@ -56,8 +56,8 @@ header {
 }
 
 .container {
-	margin-left: 15px;
-	margin-right: 15px;
+	width: 1140px;
+	margin: 0 auto;
 }
 
 .header-logo {
@@ -149,40 +149,36 @@ header {
 }
 
 .PLG {
-	width: 1170px;
+	width: 1920px;
 	height: 868px;
-	background-image: url(../images/cloudback.png);
+	background-image:  url(../images/friends.png), url(../images/cloudback.png);
+	background-repeat: no-repeat;
 	background-color: #00a4d3;
+	background-position: right bottom, center;
 }
 
-.PLG-back {
-	margin-left: 15px;
-	margin-right: 15px;
+.PLG-container {
+	width: 1530px;
 	height: 868px;
-	background-image: url(../images/friends.png);
-	position: relative;
-	bottom: 0;
-	background-repeat: no-repeat;
-	background-position: right bottom;
 }
 
 .PLG-lf-content {
-	width: 555px;
+	width: 945px;
 	float: left;
 }
 
 .PLG-lf-content img {
-	width: 555px;
-	height: 483px;
-	/*border-radius: 10px 150px 30px 150px;
-	border-top-right-radius: 15px 1px;*/
+	/*width: 555px;
+	height: 483px;*/
+	float: right;
 	padding-top: 150px; 
 }
 
 .PLG-rt-content {
 	padding-top: 300px;
-	width: 585px;
+	width: 555px;
 	display: inline-block;
+	float: right;
 }
 
 .play-learn-grow {
@@ -216,7 +212,7 @@ header {
 }
 
 .welcome {
-	width: 1170px;
+	width: 1920px;
 	height: 508px;
 	background-size: cover;
 	background-position: center;
@@ -281,7 +277,7 @@ header {
 }
 
 .featured-courses {
-	width: 1170px;
+	width: 1920px;
 	height: 1008px;
 }
 
@@ -400,7 +396,7 @@ header {
 .school-facilities {
 	background-image: url(../images/sc_back.png);
 	background-color: #00a4d3;
-	width: 1170px;
+	width: 1920px;
 	height: 631px;
 }
 
@@ -454,7 +450,7 @@ header {
 }
 
 .teachers {
-	width: 1170px;
+	width: 1920px;
 	height: 859px;
 	padding-top: 50px;
 }
@@ -467,11 +463,11 @@ header {
 }
 .teacher-head-detail {
 	font-family: 'Roboto-Medium';
-	font-size: 14px;
-	color: #333333;
+	font-size: 15px;
+	color: #ffffff;
 	width: 555px;
 	line-height: 25px;
-	padding: 27px 0;
+	padding: 20px 0;
 }
 
 .teacher-img {
@@ -540,18 +536,23 @@ header {
 }
 
 .about-john {
-	background-image: url(../images/about_john.png);
+	width: 1920px;
 	height: 752px;
-	width: 1170px;
-	background-size: cover;
-	background-position: center;
 	background-color: #00a4d3 ;
+}
 
+.about-john-bg {
+	padding-top: 112px;
+	width: 1920px;
+	height: 640px;
+	background-image: url(../images/about_john.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
 }
 
 .cover-john-img {
 	position: relative;
-	padding: 100px 0;
+	padding: 72px 0;
 	height: 220px;
 	background-image: url(../images/cover_img.png);
 	background-repeat: no-repeat;
@@ -572,10 +573,10 @@ header {
 
 .about-john-content {
 	width: 940px;
-	margin: 50px 98px;
+	margin: 30px 98px;
 	font-family: 'Roboto-Regular';
 	font-size: 18px;
-	color: #fff;
+	color: #f4f9fc;
 	line-height: 25px;
 }
 
@@ -590,7 +591,7 @@ header {
 .nb-listnews li {
 	display: inline-block;
 	list-style: none;
-	padding: 20px 20px 20px 0;
+	padding: 20px 50px 20px 0;
 }
 
 .nb-listnews li a {
@@ -604,8 +605,8 @@ header {
 	color: #1c82a0;
 }
 
-.nb-listnews hr {
-	font-weight: bold;
+hr {
+	color: red;
 }
 
 .nb-content {
@@ -635,6 +636,13 @@ header {
 	line-height: 30px;	
 }
 
+.news-detail {
+	font-family: 'Roboto-Regular';
+	font-size: 16px;
+	color: #505050;
+	line-height: 30px;
+}
+
 .nb-detail {
 	background-color: #f5f5f5;
 	display: flex;
@@ -655,23 +663,28 @@ header {
 	width: 200px;
 	font-family: 'Roboto-Regular';
 	font-size: 14px;
-	color: #333333;
+	color: #787878;
 	padding-top: 10px;
 	line-height: 25px;
 }
 
 .nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
-	width: 330px;
+	width: 480px;
+	padding-left: 150px;
 }
 
-.nb-address {
-	padding-left: 75px;
+.nb-address, .nb-office-hour {
+	background-color: #f5f5f5;
+}
+
+.nb-notice-board, .nb-admission {
+	background-color: #fafafa;
 }
 
 #footer {
 	background-repeat: no-repeat;
 	height: 1080px;
-	width: 1170px;
+	width: 1920px;
 	bottom: 0;
 }
 
@@ -684,10 +697,10 @@ header {
 }
 
 .cloud-bg {
-	height: 180px;
+	height: 133px;
 	background-repeat: no-repeat;
 	background-image: url(../images/footercloud.png);
-	margin-top: -165px;
+	margin-top: -132px;
 }
 
 .bottom-bg {
@@ -719,8 +732,12 @@ header {
 	font-size: 12px;
 	height: 44px;
 	width: 377px;
-	color: #d4d4d4;
+	color: #000;
 	padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+  	color: #b8b8b8;
 }
 
 .footer-top-right button {
@@ -736,7 +753,7 @@ header {
 }
 
 .footer-mid {
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 .footer-mid-address {
@@ -849,7 +866,6 @@ header {
 
 .footer-bottom img {
 	width: 278px;
-	padding-top: 20px;
 }
 
 .insta {
