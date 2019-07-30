@@ -109,6 +109,7 @@ header {
 .rt-header li i {
 	padding-right: 5px;
 	padding-left: 41px;
+	font-weight: bold;
 }
 
 .main-menu {
@@ -591,7 +592,7 @@ header {
 .nb-listnews li {
 	display: inline-block;
 	list-style: none;
-	padding: 20px 50px 20px 0;
+	padding: 20px 0 20px 0;
 }
 
 .nb-listnews li a {
@@ -602,11 +603,14 @@ header {
 }
 
 .nb-listnews li a:hover {
-	color: #1c82a0;
+	color: #00a4d3;
 }
 
-hr {
-	color: red;
+.space hr {
+	width: 50px;
+	border-color: #808080;
+	margin-left: -5px;
+	margin-right: -5px;
 }
 
 .nb-content {
@@ -650,12 +654,11 @@ hr {
 	font-size: 18px;
 	color: #00a4d3;
 	margin-top: 20px;
-	padding: 50px 0;
 }
 
 .nb-detail img {
 	height: 76px;
-	padding-bottom: 20px;
+	padding: 47px 0 20px 0;
 }
 
 .nb-info {
@@ -665,11 +668,12 @@ hr {
 	font-size: 14px;
 	color: #787878;
 	padding-top: 10px;
-	line-height: 25px;
+	line-height: 20px;
 }
 
 .nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
 	width: 480px;
+	height: 243px;
 	padding-left: 150px;
 }
 
@@ -680,6 +684,8 @@ hr {
 .nb-notice-board, .nb-admission {
 	background-color: #fafafa;
 }
+
+
 
 #footer {
 	background-repeat: no-repeat;
@@ -819,7 +825,7 @@ hr {
 .footer-mid li {
 	font-family: 'Roboto-Regular';
 	font-size: 14px;
-	color: #333333;
+	color: #666666;
 	line-height: 25px;
 }
 
@@ -827,7 +833,7 @@ hr {
 	text-decoration: none;
 	font-family: 'Roboto-Regular';
 	font-size: 14px;
-	color: #333333;
+	color: #666666;
 	line-height: 25px;
 }
 
@@ -840,7 +846,7 @@ hr {
 .footer-detail {
 	font-family: 'Roboto-Regular';
 	font-size: 14px;
-	color: #333333;
+	color: #666666;
 }
 
 .signupfornews {
