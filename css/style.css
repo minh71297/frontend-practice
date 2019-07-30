@@ -140,13 +140,13 @@ header {
 	font-size: 14px;
 }
 
-.footerlink a i:hover,.rt-header li a:hover ,.main-menu ul li a:hover, .footer-mid-quicklink a:hover {
+.footerlink a i:hover, .rt-header li a:hover, .main-menu li a:hover, .footer-mid-quicklink a:hover {
 	color: #ffcb0f;
 }
 
 .footer-top-left a:hover {
-	color: #000;
-} 
+	color: #ffcb0f;
+}
 
 .PLG {
 	width: 1170px;
@@ -826,7 +826,7 @@ header {
 	color: #333333;
 }
 
-#signupfornews {
+.signupfornews {
 	text-decoration: none;
 	font-family: 'Roboto-Medium';
 	font-size: 16px;
