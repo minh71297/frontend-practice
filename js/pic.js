@@ -1,4 +1,15 @@
-	var picIndex;
+	// Hiển thị, lựa chọn chuyển ảnh phần About-human
+	var picIndex=0;
+	showPics(0);	
+	loopPics(0);
+	function loopPics(n) {
+		if (true)
+		setTimeout(function(){
+			picIndex += n;
+			plusPics(n);
+			loopPics(n);
+		}, 4000);
+	}
 	function showPics() {
 		var i;
 		var pics = document.getElementsByClassName('john-img');
@@ -18,15 +29,21 @@
 		if (picIndex > pics.length - 1) {
 			picIndex = 0;
 		}
-		setTimeout(showPics, 6000);
+		if (picIndex < 0) {
+			picIndex = pic.length - 1;
+		}
 	}
 
-	showPics(picIndex = 0 );
+
+	function plusPics(n) {
+    showPics(picIndex += n);
+	}	
 
 	function currentPic(n) {
 		showPics(picIndex = n);
 	}
 
+	// Hiển thị, lựa chọn chuyển mục phần From Notice Board
 	var newsIndex;
 	function showNews() {
 		var i;
