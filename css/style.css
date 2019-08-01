@@ -536,13 +536,13 @@ header {
 	color: #a3d4ea;
 }
 
-.about-john {
+.about-human {
 	width: 1920px;
 	height: 752px;
 	background-color: #00a4d3 ;
 }
 
-.about-john-bg {
+.about-human-bg {
 	padding-top: 112px;
 	width: 1920px;
 	height: 640px;
@@ -563,16 +563,21 @@ header {
 .john-img {
 	position: absolute;
 	margin: 10px 465px;
+	display: none;
 }
 
-.about-john-title {
+.each-human {
+	display: none;
+}
+
+.about-human-title {
 	text-align: center;
 	font-family: 'Dosis-Bold';
 	font-size: 36px;
 	color: #fff;
 }
 
-.about-john-content {
+.about-human-detail {
 	width: 940px;
 	margin: 30px 98px;
 	font-family: 'Roboto-Regular';
@@ -580,6 +585,21 @@ header {
 	color: #f4f9fc;
 	line-height: 25px;
 }
+
+.dot-abj {
+	cursor: pointer;
+	height: 14px;
+	width: 14px;
+	border: solid 3px;
+	border-radius: 50%;
+	border-color: #ffffff;
+	display: inline-block;
+}
+
+.active, .dot-abj:hover {
+	background-color: #ffffff;
+}
+
 
 .nb-title {
 	height: auto;
@@ -598,7 +618,6 @@ header {
 .nb-listnews li a {
 	font-family: 'Roboto-Medium'; 
 	font-size: 16px;
-	color: #808080;
 	text-decoration: none;
 }
 
@@ -606,9 +625,21 @@ header {
 	color: #00a4d3;
 }
 
+.nb-head a{
+	color: #808080;
+}
+
+.in-use a, .in-use a hr {
+	color: #00a4d3;
+	border-color: #00a4d3;
+}
+
+.news {
+	display: none;
+}
+
 .space hr {
 	width: 50px;
-	border-color: #808080;
 	margin-left: -5px;
 	margin-right: -5px;
 }
@@ -630,6 +661,7 @@ header {
 
 .nb-news img {
 	width: 360px;
+	height: 240px;
 	border-radius: 13px;
 }
 
@@ -684,7 +716,6 @@ header {
 .nb-notice-board, .nb-admission {
 	background-color: #fafafa;
 }
-
 
 
 #footer {

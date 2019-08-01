@@ -253,60 +253,140 @@
 			</div>
 			<!-- end teachers -->
 			
-			<div class="about-john">
-				<div class="about-john-bg">
+			<div class="about-human">
+				<div class="about-human-bg">
 					<div class="container">
-						<div>
-							<div class="cover-john-img">
-								<img class="john-img" src="images/about_john_img.png" alt="about-john">
-							</div>
+						<div class="cover-john-img">
+							<div class="john-img">
+								<img id="john-img-1" src="images/about_john_img_1.png" alt="about-john"></div>
+							<div class="john-img">
+								<img id="john-img-2" src="images/about_john_img_2.png" alt="about-john"></div>
+							<div class="john-img">
+								<img id="john-img-3" src="images/about_john_img_3.png" alt="about-john"></div>
 						</div>
-						<div class="about-john-title">
+						<div class="each-human">
+							<div class="about-human-title">
 							<p>Mickel John</p>
-						</div>
-						<div class="about-john-content">
+							</div>
+							<div class="about-human-detail">
 							Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamcoolor sit amet,
+							</div>	
+						</div>
+						<div class="each-human">
+							<div class="about-human-title">
+							<p>Teddy Bear</p>
+							</div>
+							<div class="about-human-detail">
+							We bear bears
+							Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamcoolor sit amet,
+							</div>	
+						</div>
+						<div class="each-human">
+							<div class="about-human-title">
+							<p>Hello Hello</p>
+							</div>
+							<div class="about-human-detail">
+							Hello Hello
+							Lorem ipsum dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamcoolor sit amet,
+							</div>	
+						</div>
+						
+						<div style="text-align: center;">
+						<span class="dot-abj" onclick="currentPic(0)"></span>
+						<span class="dot-abj" onclick="currentPic(1)"></span>
+						<span class="dot-abj" onclick="currentPic(2)"></span>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- end about john -->
 
-			<div class="notice-board">
+			<div class="notice-board" id="notice-board">
 				<div class="container">
 					<div class="nb-title">From Notice Board</div>
 					<div class="nb-listnews">
-						<li><a href="" class="latest-news">LATEST NEWS <hr></a></li>
+						<li class="nb-head"><a href="javascript:void(0)"  onclick="currentNews(0)">LATEST NEWS <hr></a></li>
 						<li class="space"><hr></li>
-						<li><a href="">BULLETIN <hr></a></li>
+						<li class="nb-head"><a href="javascript:void(0)" onclick="currentNews(1)">BULLETIN <hr></a></li>
 						<li class="space"><hr></li>
-						<li><a href="">MEDIA <hr></a></li>
+						<li class="nb-head"><a href="javascript:void(0)" onclick="currentNews(2)">MEDIA <hr></a></li>
 					</div>
 					<div class="nb-content">
-						<div class="nb-news">
-							<a href=""><img src="images/news1.png" alt="News1"></a>
-							<p><span class="date-news">February 25, 2017</span>
-							<br>
-							<span class="news-detail">A Diploma of Accounting is specifically designed for those individuals</span>
-							</p>
+						<div class="latest-news-full news">
+							<div class="nb-news">
+								<a href=""><img src="images/news1.png" alt="News1"></a>
+								<p><span class="date-news">February 25, 2017</span>
+								<br>
+								<span class="news-detail">A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>
+							</div>
+							<div class="nb-news"> 
+								<a href=""><img src="images/news2.png" alt="News2"></a>
+								<p><span class="date-news">February 20, 2017</span>
+								<br>
+								<span class="news-detail">
+								A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>	
+							</div>
+							<div class="nb-news">
+								<a href=""><img src="images/news3.png" alt="News3"></a>
+								<p><span class="date-news">February 19, 2017</span>
+								<br>
+								<span class="news-detail">
+								A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>	
+							</div>
 						</div>
-						<div class="nb-news"> 
-							<a href=""><img src="images/news2.png" alt="News2"></a>
-							<p><span class="date-news">February 20, 2017</span>
-							<br>
-							<span class="news-detail">
-							A Diploma of Accounting is specifically designed for those individuals</span>
-							</p>	
+						<div class="bulletin-full news">
+							<div class="nb-news">
+								<a href=""><img src="images/bulletin1.png" alt="News1"></a>
+								<p><span class="date-news">March 25, 2017</span>
+								<br>
+								<span class="news-detail">A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>
+							</div>
+							<div class="nb-news"> 
+								<a href=""><img src="images/bulletin2.jpg" alt="News2"></a>
+								<p><span class="date-news">January 29, 2017</span>
+								<br>
+								<span class="news-detail">
+								A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>	
+							</div>
+							<div class="nb-news">
+								<a href=""><img src="images/bulletin3.jpg" alt="News3"></a>
+								<p><span class="date-news">December 07, 2017</span>
+								<br>
+								<span class="news-detail">
+								A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>	
+							</div>
 						</div>
-						<div class="nb-news">
-							<a href=""><img src="images/news3.png" alt="News3"></a>
-							<p><span class="date-news">February 19, 2017</span>
-							<br>
-							<span class="news-detail">
-							A Diploma of Accounting is specifically designed for those individuals</span>
-							</p>	
+						<div class="media-full news">
+							<div class="nb-news">
+								<a href=""><img src="images/media1.jpg" alt="News1"></a>
+								<p><span class="date-news">July 25, 2017</span>
+								<br>
+								<span class="news-detail">A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>
+							</div>
+							<div class="nb-news"> 
+								<a href=""><img src="images/media2.jpg" alt="News2"></a>
+								<p><span class="date-news">August 12, 2017</span>
+								<br>
+								<span class="news-detail">
+								A Diploma of Accounting is specifically designed for those individuals</span>
+								</p>	
+							</div>
+							<div class="nb-news">
+								<a href=""><img src="images/media3.jpg" alt="News3"></a>
+								<p><span class="date-news">March 30, 2017</span>
+								<br>
+								<span class="news-detail">
+								A smart phone is specifically designed for those individuals</span>
+								</p>	
+							</div>
 						</div>
-
 					</div>
 				</div>
 				<div class="nb-detail">
@@ -421,5 +501,6 @@
 		</div>
 		<!-- end footer -->
 	</div>
+	<script type="text/javascript" src="js/pic.js"></script>
 </body>
 </html>
