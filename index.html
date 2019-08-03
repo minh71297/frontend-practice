@@ -22,9 +22,16 @@
 							<li><i class="fa fa-envelope" aria-hidden="true"></i> mailedukalo.com</li>
 						</div>
 						<div class="rt-header fl-right">
-							<li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
-							<li><i class="fa fa-user" aria-hidden="true"></i> <a href="">Register</a></li>
-							<li><i class="fa fa-sign-in" aria-hidden="true"></i> <a href="">Login</a></li>
+							<li class="search-box">
+								<div class="search-detail">
+									<input type="input" id="input-search"placeholder="Search...">
+									<a href="javascript:void(0)"><i class="fa fa-search"onclick="showSearch()"></i></a>
+								</div>
+							</li>
+							<div class="res-log fl-right">
+								<li><i class="fa fa-user" aria-hidden="true"></i> <a href="">Register</a></li>
+								<li><i class="fa fa-sign-in" aria-hidden="true"></i> <a href="">Login</a></li>
+							</div>
 						</div>	
 					</div>
 					<hr width="780px" align="right" color="#80d2e9">
@@ -91,7 +98,9 @@
 					</div>
 					<div class="fc-content">
 						<div class="fc-eng-class">
-							<img src="images/englishclass.jpg" alt="English Class">
+							<div class="thumbnail-ec">
+								<img src="images/englishclass.jpg" alt="English Class">
+							</div>
 							<div class="fc-class-detail">
 								<div class="class-type"><i class="fa fa-folder-open" aria-hidden="true"></i> Class One</div>
 								<div class="fc-class-name">English Class</div>
@@ -107,11 +116,15 @@
 							<div class="fc-class-descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risusac tellus luctus, ut volutpat neque dictumIn
 							</div>
 							<a href="" class="applylink" >APPLY NOW</a>
-							</div>	
-							<img src="images/mathclass.jpg" alt="Math Class">
+							</div>
+							<div class="thumbnail-mc">	
+								<img src="images/mathclass.jpg" alt="Math Class">
+							</div>
 						</div>
 						<div class="fc-painting-class">
-							<img src="images/paintingclass.jpg" alt="Painting Class">
+							<div class="thumbnail-pc">	
+								<img src="images/paintingclass.jpg" alt="Painting Class">
+							</div>
 							<div class="fc-class-detail">
 							<div class="class-type"><i class="fa fa-folder-open" aria-hidden="true"></i> Class Two</div>
 							<div class="fc-class-name">Painting Class</div>
@@ -127,8 +140,10 @@
 							<div class="fc-class-descrip">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum risusac tellus luctus, ut volutpat neque dictumIn 
 							</div>
 							<a href="" class="applylink" >APPLY NOW</a>
-							</div>	
-							<img src="images/technology.jpg" alt="Technology">
+							</div>
+							<div class="thumbnail-t">
+								<img src="images/technology.jpg" alt="Technology">
+							</div>
 						</div>
 					</div>
 					<div class="showcourses">
@@ -256,13 +271,13 @@
 			<div class="about-human">
 				<div class="about-human-bg">
 					<div class="container">
-						<div class="cover-john-img">
-							<div class="john-img">
-								<img id="john-img-1" src="images/about_john_img_1.png" alt="about-john"></div>
-							<div class="john-img">
-								<img id="john-img-2" src="images/about_john_img_2.png" alt="about-john"></div>
-							<div class="john-img">
-								<img id="john-img-3" src="images/about_john_img_3.png" alt="about-john"></div>
+						<div class="cover-ah-img">
+							<div class="human-img">
+								<img id="ab-img-1" src="images/about_john_img_1.png" alt="about-john"></div>
+							<div class="human-img">
+								<img id="ab-img-2" src="images/about_john_img_2.png" alt="about-john"></div>
+							<div class="human-img">
+								<img id="ab-img-3" src="images/about_john_img_3.png" alt="about-john"></div>
 						</div>
 						<div class="each-human">
 							<div class="about-human-title">
@@ -445,7 +460,7 @@
 					</div>
 					<div class="footer-top-right">
 						<button class="btn-submit" type="submit">SUBMIT NOW</button>
-						<input type="text" name="input_email" placeholder="Enter your email">
+						<input type="text" name="input-email" placeholder="Enter your email">
 					</div>
 				</div>
 				<div class="footer-mid">
