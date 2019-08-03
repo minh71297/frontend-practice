@@ -136,6 +136,7 @@ header {
 .search-detail a {
   	text-align: center;
   	font-size: 14px;
+  	color: #00a4d3;
 }
 
 #input-search {
@@ -147,6 +148,7 @@ header {
  	width: 0px;
   	transition: all 0.8s ease;
   	color: #00a4d3;
+  	font-family: 'Roboto-Regular';
   	font-size: 16px;
   	font-weight: 600;
 }
@@ -180,7 +182,7 @@ header {
 }
 
 #input-search::-webkit-input-placeholder {
-  	color: #00a4d3;
+  	color: #b8b8b8;
 }
 
 .res-log li i {
