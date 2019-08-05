@@ -51,7 +51,7 @@ header {
 }
 
 .header {
-	height: 208px;
+	height: 340px;
 	background: #00a4d3;
 }
 
@@ -236,7 +236,7 @@ header {
 	height: 868px;
 	background-image:  url(../images/friends.png), url(../images/cloudback.png);
 	background-repeat: no-repeat;
-	background-color: #00a4d3;
+	/*background-color: #00a4d3;*/
 	background-position: right bottom, center;
 }
 
