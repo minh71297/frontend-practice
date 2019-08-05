@@ -234,7 +234,7 @@ header {
 .PLG {
 	width: 1920px;
 	height: 868px;
-	background-image:  url(../images/friends.png), url(../images/cloudback.png);
+	background-image:  url(../images/friends.webp), url(../images/cloudback.webp);
 	background-repeat: no-repeat;
 	/*background-color: #00a4d3;*/
 	background-position: right bottom, center;
@@ -300,7 +300,7 @@ header {
 	background-size: cover;
 	background-position: center;
 	background-color: #00a4d3;
-	background-image: url(../images/wc_back.png);
+	background-image: url(../images/wc_back.webp);
 }
 
 .lf-welcome {
@@ -516,7 +516,7 @@ header {
 }
 
 .school-facilities {
-	background-image: url(../images/sc_back.png);
+	background-image: url(../images/sc_back.webp);
 	background-color: #00a4d3;
 	width: 1920px;
 	height: 631px;
@@ -687,7 +687,7 @@ header {
 	padding-top: 112px;
 	width: 1920px;
 	height: 640px;
-	background-image: url(../images/about_john.png);
+	background-image: url(../images/about_john.webp);
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
@@ -696,7 +696,7 @@ header {
 	position: relative;
 	padding: 72px 0;
 	height: 220px;
-	background-image: url(../images/cover_img.png);
+	background-image: url(../images/cover_img.webp);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -874,7 +874,7 @@ header {
 .top-bg {
 	height: 260px;
 	background-repeat: no-repeat;
-	background-image: url(../images/rainbow.png);
+	background-image: url(../images/rainbow.webp);
 	background-color: #00a4d3;
 	background-position: top right;
 }
@@ -882,13 +882,13 @@ header {
 .cloud-bg {
 	height: 133px;
 	background-repeat: no-repeat;
-	background-image: url(../images/footercloud.png);
+	background-image: url(../images/footercloud.webp);
 	margin-top: -132px;
 }
 
 .bottom-bg {
 	background-repeat: no-repeat;
-	background-image: url(../images/footerbackground.png);
+	background-image: url(../images/footerbackground.webp);
 	height: 333px;
 }
 
