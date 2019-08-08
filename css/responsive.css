@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 499px) {
 	.container {
 		width: 90%;
 		margin: 0 auto;
@@ -461,18 +461,9 @@
 	}
 }
 
-
-
-/*	img {
-		width: 50%;
-/*	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
-		width: 50%;
-	}*/
-/*}*/
-
-/*@media screen and (max-width: 500px) {
+/*@media screen and (min-width: 321px) and(max-width: 500px) {
 	.container {
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.header-logo {
@@ -494,9 +485,9 @@
 	}
 }*/
 
-@media screen and (min-width: 1140px) {
+/*@media screen and (min-width: 1140px) {
 	.container {
 	width: 1140px;
 	margin: 0 auto;
 	}
-}
+}*/
