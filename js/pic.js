@@ -6,7 +6,7 @@
 		var pics = document.getElementsByClassName('human-img');
 		var dots = document.getElementsByClassName('dot-abj');
 		var contents = document.getElementsByClassName('each-human');
-		for (i= 0; i < pics.length; i++) {
+		for (i = 0; i < pics.length; i++) {
 			pics[i].style.display = "none";
 			contents[i].style.display = "none";
 		}
@@ -69,3 +69,15 @@
 	// 	var input_search = document.getElementById('input-search');
 	// 	input_search.style.display = "inline-block";	
 	// }
+	function showMenu() {
+		var menu = document.getElementsByClassName('main-menu');
+		if (menu[0].style.display == "block") {
+			menu[0].style.display = "none";
+		}
+		else menu[0].style.display = "block";
+	}
+
+	// window.addEventListener("click", function(){
+ //             if (!event.target.matches('.btn-sm-menu'))
+ //                    menu[0].style.display = "none";
+ //             });

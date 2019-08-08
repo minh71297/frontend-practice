@@ -40,36 +40,42 @@
 }
 
 body {
-	width: 1920px;
 	margin: 0px auto;
 }
 
+#content {
+	/*min-height: 11600px;*/
+}
+
 header {
-	height: 208px;
-	width: 1920px;
-	
+	min-height: 208px;
 }
 
 .header {
-	height: 340px;
+	min-height: 340px;
 	background: #00a4d3;
+	width: auto;
 }
 
 .container {
 	width: 1140px;
 	margin: 0 auto;
+	/*overflow: auto;*/
 }
 
 .header-logo {
-	width: 278px;
-	height: 208px;
+	width: 271px;
 	display: inline-block;
 	padding: 30px 0;
 }
 
+.header-logo img {
+	width: 100%;
+}
+
 .header-detail {
 	width: 780px;
-	height: 208px;
+	min-height: 208px;
 	float: right;
 }
 
@@ -194,6 +200,12 @@ header {
 	padding-left: 35px;
 }
 
+.btn-sm-menu {
+	font-size: 18px;
+    border-radius: 4px;
+    display: none;
+}
+
 .main-menu {
 	width: 780px;
 	height: 40px;
@@ -213,7 +225,7 @@ header {
 }
 
 .rt-home li {
-	padding-left: 64px;
+	padding-left: 54px;
 }
 
 .rt-home li a {
@@ -232,28 +244,21 @@ header {
 }
 
 .PLG {
-	width: 1920px;
-	height: 868px;
+	min-height: 868px;
 	background-image:  url(../images/friends.webp), url(../images/cloudback.webp);
 	background-repeat: no-repeat;
 	/*background-color: #00a4d3;*/
 	background-position: right bottom, center;
 }
 
-.PLG-container {
-	width: 1530px;
-	height: 868px;
-}
-
 .PLG-lf-content {
-	width: 945px;
+	width: 580px;
 	float: left;
 }
 
 .PLG-lf-content img {
-	/*width: 555px;
-	height: 483px;*/
 	float: right;
+	width: 110%;
 	padding-top: 150px; 
 }
 
@@ -295,8 +300,7 @@ header {
 }
 
 .welcome {
-	width: 1920px;
-	height: 508px;
+	min-height: 508px;
 	background-size: cover;
 	background-position: center;
 	background-color: #00a4d3;
@@ -331,7 +335,7 @@ header {
 }
 
 .welcome-content {
-	max-width: 432px;
+	width: 432px;
 	padding-bottom: 40px;
 	font-family: 'Roboto-Regular';
 	font-size: 14px;
@@ -361,8 +365,7 @@ header {
 }
 
 .featured-courses {
-	width: 1920px;
-	height: 1008px;
+	min-height: 1008px;
 }
 
 .featured-courses p {
@@ -410,6 +413,7 @@ header {
 
 .fc-content {
 	display: flex;
+	flex-wrap: wrap;
 	padding: 35px 0 60px 0;
 }
 
@@ -518,7 +522,6 @@ header {
 .school-facilities {
 	background-image: url(../images/sc_back.webp);
 	background-color: #00a4d3;
-	width: 1920px;
 	height: 631px;
 }
 
@@ -577,8 +580,7 @@ header {
 }
 
 .teachers {
-	width: 1920px;
-	height: 859px;
+	min-height: 859px;
 	padding-top: 50px;
 }
 
@@ -598,8 +600,8 @@ header {
 }
 
 .teacher-img {
-	display: grid;
-	grid-template-columns: 290px 290px 290px 290px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .teacher-img img {
@@ -632,6 +634,8 @@ header {
 
 .music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
 	position: relative;
+	display: inline-block;
+	padding-right: 14px;
 }
 
 .principle img, .dance-teacher img {
@@ -678,14 +682,12 @@ header {
 }
 
 .about-human {
-	width: 1920px;
 	height: 752px;
 	background-color: #00a4d3 ;
 }
 
 .about-human-bg {
 	padding-top: 112px;
-	width: 1920px;
 	height: 640px;
 	background-image: url(../images/about_john.webp);
 	background-position: bottom;
@@ -741,6 +743,13 @@ header {
 	background-color: #ffffff;
 }
 
+.show {
+	display: block;
+}
+
+.notice-board {
+	min-height: 843px;
+}
 
 .nb-title {
 	height: auto;
@@ -786,7 +795,7 @@ header {
 }
 
 .nb-content {
-	height: 350px;
+
 }
 
 .nb-content a img:hover {
@@ -819,6 +828,7 @@ header {
 }
 
 .news-detail {
+	width: 100%;
 	font-family: 'Roboto-Regular';
 	font-size: 16px;
 	color: #505050;
@@ -832,6 +842,7 @@ header {
 	font-size: 18px;
 	color: #00a4d3;
 	margin-top: 20px;
+	width: 100%;
 }
 
 .nb-detail img {
@@ -852,7 +863,7 @@ header {
 .nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
 	width: 480px;
 	height: 243px;
-	padding-left: 150px;
+	padding-left: 100px;
 }
 
 .nb-address, .nb-office-hour {
@@ -866,8 +877,7 @@ header {
 
 #footer {
 	background-repeat: no-repeat;
-	height: 1080px;
-	width: 1920px;
+	min-height: 1080px;
 	bottom: 0;
 }
 
@@ -958,7 +968,7 @@ header {
 }
 
 .insta-img {
-	width: 412px;
+	width: 414px;
 	float: right;
 }
 
