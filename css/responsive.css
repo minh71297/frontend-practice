@@ -548,7 +548,7 @@
 	}
 
 	.fc-class-detail {
-		max-width: 238px;
+		max-width: 192px;
 		min-height: 240px;
 		margin: 0 auto;
 	}
@@ -566,12 +566,12 @@
 	}
 
 	.fc-eng-class img, .fc-painting-class img, .fc-math-class img, .fc-tech img {
-    	max-width: 278px;
+    	max-width: 232px;
     	margin: 0 auto;
 	}
 	
 	.thumbnail-ec, .thumbnail-pc, .thumbnail-mc, .thumbnail-t {
-		max-width: 278px;
+		max-width: 232px;
 		margin: 0 auto;
 	}
 
@@ -609,6 +609,8 @@
 		font-size: 12px;
 		width: 25vw;
 		height: 25vw;
+		max-width: 100px;
+    	max-height: 100px;
 	}
 
 	.icon:after {
@@ -805,6 +807,7 @@
 	.footer-bottom img {
 		width: 65%;
 		margin: 1em auto;
+		max-width: 230px;
 	}
 	.footerlink {
 		width: 100%;
@@ -863,11 +866,11 @@
 	}
 
 	.search-detail:hover #input-search {
-		width: 100px;
+		width: 120px;
 	}
 
 	#input-search:focus {
-		width: 100px;
+		width: 120px;
 	}
 	.res-log li {
 		padding: 0 0.2em 0 3em;
@@ -946,7 +949,7 @@
 	}
 
 	.featured-courses {
-    	min-height: 2500px;
+    	min-height: 1400px;
 	}
 
 	.fc-headtitle {
@@ -964,12 +967,18 @@
 	}
 
 	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
-		width: 80%;
-		margin: 0 auto;
+		width: 50%;
+		max-width: 232px;
 	}
-
+	.fc-eng-class, .fc-painting-class {
+		margin-left: auto;
+	}
+	.fc-math-class, .fc-tech {
+		margin-right: auto;
+	}
 	.fc-class-detail {
 		width: 83%;
+		max-width: 232px;
 		min-height: 240px;
 	}
 
@@ -997,12 +1006,15 @@
 		min-height: 801px;
 	}
 
-	.sf-lf, .sf-lf img, .sf-rt {
+	.sf-lf, .sf-lf img {
 		width: 100%;
 	}
-	
 	.sf-rt {
-		margin: 2.5em 0;
+		width: 100%;
+		max-width: 416px;
+	}
+	.sf-rt {
+		margin: 0.5em 0;
 	}
 
 	.sf-lf-title {
@@ -1011,13 +1023,16 @@
 	
 	.sf-lf p {
 		font-size: 12px;
+		width: 85%;
 	}
 
 	.icon {
 		margin: 0.5em;
 		font-size: 12px;
-		width: 15vh;
-		height: 15vh;
+		width: 25vw;
+    	height: 25vw;
+    	max-width: 100px;
+  		max-height: 100px;
 	}
 
 	.icon img {
@@ -1068,7 +1083,8 @@
 	}
 
 	.human-img img {
-		width: 100%;
+		width: 75%;
+		max-width: 160px;
 	}
 
 	.about-human-title {
@@ -1128,8 +1144,8 @@
 	}
 
 	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
-	    width: 48%;
-	    padding-left: 5px;
+	    width: 44%;
+	    padding-left: 1.5em;
 	}
 	.top-bg {
 		min-height: 200px;
@@ -1189,21 +1205,20 @@
 		font-size: 12px;
 	}
 	.footer-bottom img {
-		width: 65%;
+		width: 50%;
 		max-width: 273px;
 		margin: 1em auto;
 	}
 	.footerlink {
-		width: 100%;
-		padding: 0 0 1.5em 0;
+		width: 50%;
 	}
 
 	.footerlink i {
 	    font-size: 24px;
-	    padding: 0 0.4em;
+	    padding-left: 0.6em;
 	}
 	.bottom-bg {
-	    min-height: 60px;
+	    min-height: 100px;
 	    background-size: 100% auto;
 	}
 }
@@ -1246,18 +1261,18 @@
 	}
 	
 	#input-search {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.search-detail:hover #input-search {
-		width: 70px;
+		width: 120px;
 	}
 
 	#input-search:focus {
-		width: 70px;
+		width: 120px;
 	}
 	.res-log li {
-		padding: 0 0.8em;
+		padding: 0 0.2em 0 3em;
 	}
 	.res-log li i {
 		display: none;
@@ -1280,6 +1295,7 @@
 
 	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
 		width: 100%;
+		max-width: 569px;
 	}
 	
 	.PLG-rt-content {
@@ -1288,13 +1304,13 @@
 
 	.play-learn-grow {
 		width: 100%;
-		font-size: 36px;
+		font-size: 48px;
 		text-align: right;		
 	}
 	
 	.YNP {
 		width: 100%;
-		font-size: 24px;
+		font-size: 30px;
 		text-align: right;
 	}
 
@@ -1308,16 +1324,16 @@
 	}
 	
 	.title-welcome {
-		font-size: 20px;
+		font-size: 24px;
 	}
 	
 	.kidz {
-		font-size: 24px;
+		font-size: 30px;
 	}
 
 	.welcome-content {
-		width: 100%;
-		font-size: 12px;
+		width: 60%;
+		font-size: 14px;
 	}
 
 	.rt-welcome {
@@ -1333,7 +1349,7 @@
 	}
 
 	.featured-courses {
-    	min-height: 2500px;
+    	min-height: 1550px;
 	}
 
 	.fc-headtitle {
@@ -1351,13 +1367,19 @@
 	}
 
 	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
-		width: 80%;
-		margin: 0 auto;
+		width: 50%;
+		max-width: 278px;
 	}
-
+	.fc-eng-class, .fc-painting-class {
+		margin-left: auto;
+	}
+	.fc-math-class, .fc-tech {
+		margin-right: auto;
+	}
 	.fc-class-detail {
 		width: 83%;
-		min-height: 240px;
+	    max-width: 232px;
+	    min-height: 283px;
 	}
 
 	.class-type {
@@ -1384,12 +1406,15 @@
 		min-height: 801px;
 	}
 
-	.sf-lf, .sf-lf img, .sf-rt {
+	.sf-lf, .sf-lf img {
 		width: 100%;
 	}
-	
 	.sf-rt {
-		margin: 2.5em 0;
+		width: 100%;
+		max-width: 416px;
+	}
+	.sf-rt {
+		margin: 0.5em 0;
 	}
 
 	.sf-lf-title {
@@ -1398,13 +1423,16 @@
 	
 	.sf-lf p {
 		font-size: 12px;
+		width: 60%;
 	}
 
 	.icon {
 		margin: 0.5em;
 		font-size: 12px;
-		width: 15vh;
-		height: 15vh;
+		width: 25vw;
+    	height: 25vw;
+    	max-width: 100px;
+  		max-height: 100px;
 	}
 
 	.icon img {
@@ -1455,7 +1483,8 @@
 	}
 
 	.human-img img {
-		width: 100%;
+		width: 75%;
+		max-width: 160px;
 	}
 
 	.about-human-title {
@@ -1515,12 +1544,16 @@
 	}
 
 	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
-	    width: 48%;
-	    padding-left: 5px;
+	    width: 44%;
+	    padding-left: 1.5em;
 	}
 	.top-bg {
 		min-height: 200px;
 		background-size: auto 100%;
+	}
+	.cloud-bg {
+	    min-height: 154px;
+	    margin-top: -153px;
 	}
 	.footer-top-left {
 		width: 100%;
@@ -1542,12 +1575,15 @@
 	    width: 62%;
 	}
 	.footer-mid-address {
-		width: 57%;
+		width: 33%;
 	}
 	.footer-mid-quicklink {
-		width: 43%;
+		width: 33%;
 	}
-	.footer-mid-insta, .insta-img {
+	.footer-mid-insta {
+		width: 34%;
+	}
+	.insta-img {
 		width: 100%;
 	}
 	.fma-head, .footer-detail-head {
@@ -1558,8 +1594,8 @@
 		text-align: left;
 	}
 	.insta-img img {
-		width: 60px;
-		min-height: 60px;
+		width: 40px;
+		min-height: 40px;
 	}
 	.footer-detail, .footer-mid li a {
 		font-size: 12px;
@@ -1572,20 +1608,20 @@
 		font-size: 12px;
 	}
 	.footer-bottom img {
-		width: 65%;
+		width: 50%;
+		max-width: 273px;
 		margin: 1em auto;
 	}
 	.footerlink {
-		width: 100%;
-		padding: 0 0 1.5em 0;
+		width: 50%;
 	}
 
 	.footerlink i {
 	    font-size: 24px;
-	    padding: 0 0.4em;
+	    padding-left: 0.6em;
 	}
 	.bottom-bg {
-	    min-height: 60px;
+	    min-height: 130px;
 	    background-size: 100% auto;
 	}
 }
@@ -1601,30 +1637,20 @@
 	.header-detail {
 		width: 60%;
 	}
-
-	.header-detail hr {
-		display: none;
-	}
-
-	.contact {
-		padding-top: 25px;
-	}
-
 	.lf-header {
-		display: none;
+		display: block; 
+	}
+	.contact {
+		padding-top: 30px;
 	}
 	
 	.search-box {
-		width: 100%;
+		width: 49%;
 		padding-bottom: 0.5em;
 	}
 
-	.rt-header {
-		width: 100%;
-	}
-
 	.res-log {
-		width: 92%;
+		width: 51%;
 	}
 	
 	#input-search {
@@ -1639,44 +1665,45 @@
 		width: 70px;
 	}
 	.res-log li {
-		padding: 0 0.8em;
+		padding: 0 0.7em;
 	}
 	.res-log li i {
 		display: none;
 	}
 
 	.btn-sm-menu {
-		display: block;
-		float: right;
+		display: none;
 	}
 	
-	.main-menu {
-		display: none;
+	.main-menu li {
+		width: auto;
+		padding-right: 0.3em;
 	}
 
 	.rt-home li {
-		width: 100%;
-		text-align: right;
 		line-height: 1.3em;
 	}
 
-	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
+	.PLG-lf-content, .PLG-rt-content {
+		width: 50%;
+		max-width: 569px;
+	}
+	.PLG-lf-content img {
 		width: 100%;
 	}
-	
+
 	.PLG-rt-content {
-		padding-top: 2em;
 	}
 
 	.play-learn-grow {
 		width: 100%;
-		font-size: 36px;
+		font-size: 48px;
 		text-align: right;		
 	}
 	
 	.YNP {
 		width: 100%;
-		font-size: 24px;
+		font-size: 30px;
 		text-align: right;
 	}
 
@@ -1686,7 +1713,8 @@
 	}
 
 	.lf-welcome {
-		width: 100%;
+		width: 50%;
+		padding-top: 2em;
 	}
 	
 	.title-welcome {
@@ -1698,16 +1726,18 @@
 	}
 
 	.welcome-content {
-		width: 100%;
+		width: 60%;
 		font-size: 12px;
 	}
 
 	.rt-welcome {
-		width: 100%;
+		width: 50%;
+		padding-top: 0;
 	}
 
 	.rt-welcome img {
 		width: 100%;
+		padding-top: 5em;
 	}
 
 	.btn-readmore {
@@ -1715,7 +1745,7 @@
 	}
 
 	.featured-courses {
-    	min-height: 2500px;
+    	min-height: 800px;
 	}
 
 	.fc-headtitle {
@@ -1733,8 +1763,7 @@
 	}
 
 	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
-		width: 80%;
-		margin: 0 auto;
+		width: 25%;
 	}
 
 	.fc-class-detail {
@@ -1744,6 +1773,7 @@
 
 	.class-type {
 		font-size: 12px;
+		padding: 1em 1.2em;
 	}
 
 	.fc-class-name {
@@ -1752,6 +1782,8 @@
 
 	.fc-class-descrip {
 		font-size: 12px;
+	    padding: 1em 1.2em;
+	    line-height: 1.4em;
 	}
 
 	.applylink {
@@ -1763,15 +1795,16 @@
 	}
 
 	.school-facilities {
-		min-height: 801px;
+		min-height: 550px;
 	}
 
-	.sf-lf, .sf-lf img, .sf-rt {
-		width: 100%;
+	.sf-lf, .sf-lf img {
+		width: 60%;
 	}
 	
 	.sf-rt {
-		margin: 2.5em 0;
+		width: 40%;
+		margin: 5.5em 0;
 	}
 
 	.sf-lf-title {
@@ -1780,13 +1813,14 @@
 	
 	.sf-lf p {
 		font-size: 12px;
+		max-width: 60%;
 	}
 
 	.icon {
 		margin: 0.5em;
 		font-size: 12px;
-		width: 15vh;
-		height: 15vh;
+		width: 11vw;
+		height: 11vw;
 	}
 
 	.icon img {
@@ -1794,6 +1828,9 @@
 		width: 50%;
 	}
 
+	.teachers {
+		min-height: 600px;
+	}
 	.teachers-head-title {
 		width: 100%;
 		font-size: 24px;
@@ -1805,7 +1842,7 @@
 	}
 
 	.music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
-		width: 49%;
+		width: 24%;
 	}
 		
 	.teacher-name {
@@ -1837,7 +1874,8 @@
 	}
 
 	.human-img img {
-		width: 100%;
+		width: 75%;
+		max-width: 160px;
 	}
 
 	.about-human-title {
@@ -1875,7 +1913,7 @@
 	}
 
 	.nb-news {
-		width: 100%;
+		width: 30%;
 	}
 
 	.nb-news img {
@@ -1897,8 +1935,8 @@
 	}
 
 	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
-	    width: 48%;
-	    padding-left: 5px;
+	    width: 23%;
+	    padding-left: 1em;
 	}
 	.top-bg {
 		min-height: 200px;
@@ -1924,24 +1962,27 @@
 	    width: 62%;
 	}
 	.footer-mid-address {
-		width: 57%;
+		width: 33%;
 	}
 	.footer-mid-quicklink {
-		width: 43%;
+		width: 33%;
 	}
-	.footer-mid-insta, .insta-img {
-		width: 100%;
+	.footer-mid-insta {
+		width: 34%;
 	}
 	.fma-head, .footer-detail-head {
 		font-size: 14px;
 	}
 	.insta {
 		font-size: 14px;
-		text-align: left;
+		text-align: right;
 	}
 	.insta-img img {
 		width: 60px;
 		min-height: 60px;
+	}
+	.insta-img {
+		width: 100%;
 	}
 	.footer-detail, .footer-mid li a {
 		font-size: 12px;
@@ -1950,16 +1991,14 @@
 		font-size: 12px;
 	}
 	.copyright {
-		width: 70%;
+		width: 35%;
 		font-size: 12px;
 	}
 	.footer-bottom img {
-		width: 65%;
-		margin: 1em auto;
+		width: 25%;
 	}
 	.footerlink {
-		width: 100%;
-		padding: 0 0 1.5em 0;
+		width: 35%;
 	}
 
 	.footerlink i {
@@ -1967,7 +2006,7 @@
 	    padding: 0 0.4em;
 	}
 	.bottom-bg {
-	    min-height: 60px;
+	    min-height: 170px;
 	    background-size: 100% auto;
 	}
 }

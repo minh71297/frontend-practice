@@ -66,6 +66,7 @@ header {
 
 .header-logo img {
 	width: 100%;
+	max-width: 273px;
 }
 
 .header-detail {
@@ -397,13 +398,14 @@ li a.home {
 
 .fc-eng-class img, .fc-painting-class img {
 	width: 100%;
+	max-width: 278px;
 	border-top-right-radius: 10%;
 	border-top-left-radius: 10%;
-	max-width: 278px;
 }
 
 .fc-math-class img, .fc-tech img {
 	width: 100%;
+	max-width: 278px;
 	border-bottom-right-radius: 10%;
 	border-bottom-left-radius: 10%;
 	max-width: 278px;
@@ -417,6 +419,7 @@ li a.home {
 
 .thumbnail-ec, .thumbnail-pc {
     width: 100%;
+	max-width: 278px;
     overflow: hidden; 
     border-top-right-radius: 10%;
 	border-top-left-radius: 10%;
@@ -424,6 +427,7 @@ li a.home {
 
 .thumbnail-mc, .thumbnail-t {
     width: 100%;
+	max-width: 278px;
     overflow: hidden;
     border-bottom-right-radius: 10%;
 	border-bottom-left-radius: 10%;  
@@ -436,6 +440,7 @@ li a.home {
 	background-color: #fafafa;
 	border-radius: 10%;
 	padding: 1.25em;
+	max-width: 238px;
 }
 
 .class-type {
@@ -582,6 +587,7 @@ li a.home {
 .teacher-img img {
 	width: 96%;
 	padding-top: 25px;
+	max-width: 263px;
 } 
 
 .job-title1, .job-title2, .job-title3 {
@@ -592,6 +598,7 @@ li a.home {
 	min-height: 37px;
 	text-align: center;
 	padding-top: 0.62em;
+	max-width: 263px;
 }
 
 .job-title1 {
@@ -895,6 +902,7 @@ li a.home {
 	font-size: 12px;
 	min-height: 44px;
 	width: 39%;
+	max-width: 381px;
 	color: #000;
 	padding-left: 0.83em;
 }
@@ -911,7 +919,7 @@ li a.home {
 	color: #fff;
 	background-color: #00a4d3;
 	min-height: 48px;
-	width: 143px;
+	max-width: 143px;
 }
 
 .footer-mid {
@@ -943,7 +951,7 @@ li a.home {
 }
 
 .insta-img {
-	width: 85%;
+	width: 100%;
 	float: right;
 }
 
@@ -1032,6 +1040,7 @@ li a.home {
 
 .footer-bottom img {
 	width: 24%;
+	max-width: 273px;
 }
 
 .footerlink {
