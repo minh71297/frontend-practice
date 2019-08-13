@@ -1,224 +1,163 @@
-@media screen and (min-width: 320px) and (max-width: 499px) {
+@media screen and (max-width: 320px)  {
 	.container {
-		width: 90%;
-		margin: 0 auto;
+		margin: 0 1em;
 	}
-
 	.header-logo {
 		width: 40%;
 	}
-
+	
 	.header-detail {
-		width: 50%;
-	}
-
-	.btn-sm-menu {
-		display: block;
-	}
-	
-	.main-menu {
-		width: 100%;
-		margin: 0 auto;
-		padding: 0;
-		/*overflow: hidden;*/
-		display: none;
-	}
-	
-	.rt-header {
-		width: 100%;
-		float: none;
-	}
-	
-/*	.menu-item {
-		display: none;
-	}*/
-
-	.rt-home li {
-		width: 100%;
-		padding: 0;
-		text-align: right;
-	}
-
-	.contact {
-		width: 100%;
-		padding-top: 30px;
-	}
-
-	.contact li a {
-		font-size: 12px;
-    	
-	}
-	
-	.search-box {
-		width: 100%;
-	}
-	
-	.search-detail:hover #input-search {
-		width: 90px;
-	}
-
-	.search-detail a {
-		padding: 0;
-	}
-	
-	#input-search {
-		font-size: 12px;
-	}
-
-	.res-log {
-		height: 30px;
-		padding-top: 30px;
-	}
-
-	.res-log li {
-		padding-right: 25px;
-	}
-
-	.res-log li i {
-		display: none;
-	}
-	
-	.lf-header {
-		display: none;
-
+		width: 60%;
 	}
 
 	.header-detail hr {
 		display: none;
 	}
-	.nb-detail {
-		width: 100%;
-		margin: 0 auto;
-		flex-wrap: wrap;
-		font-size: 14px;
-	}
-	
-	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
-		width: 45%;
-		padding: 0;
-		margin-left: 13px;
+
+	.contact {
+		padding-top: 25px;
 	}
 
-	.nb-info {
+	.lf-header {
+		display: none;
+	}
+	
+	.search-box {
 		width: 100%;
-		font-size: 12px;
+		padding-bottom: 0.5em;
+	}
+
+	.rt-header {
+		width: 100%;
+	}
+
+	.res-log {
+		width: 100%;
+	}
+	
+	#input-search {
+		font-size: 14px;
+	}
+
+	.search-detail:hover #input-search {
+		width: 70px;
+	}
+
+	#input-search:focus {
+		width: 70px;
+	}
+	.res-log li {
+		padding: 0 0.2em 0 1.6em;
+	}
+	.res-log li i {
+		display: none;
+	}
+
+	.btn-sm-menu {
+		display: block;
+		float: right;
+	}
+	
+	.main-menu {
+		display: none;
+	}
+
+	.rt-home li {
+		width: 100%;
+		text-align: right;
+		line-height: 1.3em;
+	}
+
+	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
+		width: 100%;
+	}
+	
+	.PLG-rt-content {
+		padding-top: 2em;
+	}
+
+	.play-learn-grow {
+		width: 100%;
+		font-size: 36px;
+		text-align: right;		
+	}
+	
+	.YNP {
+		width: 100%;
+		font-size: 24px;
+		text-align: right;
+	}
+
+	.btn-admit {
+		width: 50%;
+		font-size: 14px;
+	}
+
+	.lf-welcome {
+		width: 100%;
 	}
 	
 	.title-welcome {
 		font-size: 20px;
 	}
 	
+	.kidz {
+		font-size: 24px;
+	}
+
 	.welcome-content {
 		width: 100%;
 		font-size: 12px;
-		padding-bottom: 20px;
 	}
 
-	.kidz {
-		font-size: 24px;
-		padding: 10px 0 10px 0;
-	}
-
-	.lf-welcome {
+	.rt-welcome {
 		width: 100%;
-		padding-top: 10px;
 	}
-	
+
 	.rt-welcome img {
-		width: 44%;
-		padding: 0;
-		float: none;
-	}
-	
-	.PLG {
-		background-size: 100% auto;
-		min-height: 480px;
-	}
-
-	.play-learn-grow {
 		width: 100%;
-		font-size: 30px;
-		text-align: right;
 	}
 
-	.YNP {
-		width: 100%;
-		font-size: 24px;
-	    margin: 5px 0px;
-	    text-align: right;
-	}
-
-	.PLG-lf-content {
-   		width: 100%;
-	}
-
-	.PLG-lf-content img {
-		width: 100%;
-		padding-top: 50px;
-	}
-
-	.PLG-rt-content {
-	    width: 100%;
-	    padding: 0;
-	    float: none;
-		text-align: center;
-		display: flex;
-    	flex-wrap: wrap;
-	}
-
-	.btn-admit {
-		margin: 10px 0 10px 175px;
-	    float: none;
-	    width: 40%;
-	    font-size: 12px;
-	}
-	
 	.btn-readmore {
-		padding: 13px 24px;
-		margin: 10px auto;
-	    float: none;
-	    width: 40%;
-	    font-size: 12px;
+		font-size: 14px;
 	}
-	
+
 	.featured-courses {
-   		min-height: 2550px;
+    	min-height: 2500px;
 	}
 
 	.fc-headtitle {
 		font-size: 24px;
 	}
-	
+
 	.fc-title p {
+		width: 100%;
 		font-size: 12px;
 	}
-
+	
 	.fc-content {
-		padding-top: 10px;
+		flex-wrap: wrap;
+		padding-bottom: 2.75em;
 	}
-	
-	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech  {
-		width: 100%;
-	}
-	
-	.fc-eng-class img, .fc-painting-class img, .fc-math-class img, .fc-tech img {
-		width: 100%;
-	}
-	
-	.fc-class-detail {
+
+	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
 		width: 80%;
-		padding: 0;
 		margin: 0 auto;
 	}
-	
-	.fc-class-type {
+
+	.fc-class-detail {
+		width: 83%;
+		min-height: 240px;
+	}
+
+	.class-type {
 		font-size: 12px;
 	}
 
 	.fc-class-name {
 		font-size: 16px;
 	}
-	
+
 	.fc-class-descrip {
 		font-size: 12px;
 	}
@@ -227,140 +166,134 @@
 		font-size: 14px;
 	}
 
-	.thumbnail-ec, .thumbnail-pc, .thumbnail-mc, .thumbnail-t {
-		width: 80%;
-		margin: 0 auto;
-		height: auto;
-	}
-
 	.btn-view-courses {
-		padding: 16px 22px;
-		font-size: 12px;
+		font-size: 14px;
 	}
-	
+
 	.school-facilities {
-		min-height: 800px;
+		min-height: 801px;
 	}
 
-	.sf-lf {
+	.sf-lf, .sf-lf img, .sf-rt {
 		width: 100%;
-	}
-
-	.sf-lf img {
-		width: 100%;
-	}
-	
-	.sf-lf-title {
-		font-size: 24px;
-	}
-
-	.sf-lf p {
-		font-size: 12px;
 	}
 	
 	.sf-rt {
-		width: 100%;
-		margin: 20px 0;
+		margin: 2.5em 0;
+	}
+
+	.sf-lf-title {
+		font-size: 24px;
+	}
+	
+	.sf-lf p {
+		font-size: 12px;
 	}
 
 	.icon {
+		margin: 0.5em;
 		font-size: 12px;
-		width: 90px;
-		height: 90px;
-		margin: 3px;
+		width: 25vw;
+		height: 25vw;
 	}
 
 	.icon img {
-		width: 40%;
-		padding-top: 16px;
+		padding-top: 0.7em;
+		width: 50%;
 	}
 
 	.teachers-head-title {
+		width: 100%;
 		font-size: 24px;
 	}
-
+	
 	.teacher-head-detail {
-		font-size: 12px;
 		width: 100%;
+		font-size: 12px;
 	}
 
-	.teacher-img img {
-	    width: 140px;
-	    height: 140px;
-	    padding-top: 25px;
-	}
-
-	.principle {
-	    position: relative;
-	    display: inline-block;
-	    padding-right: 4px;
-	}
-	
-	.teacher-name {
-	    font-size: 16px;
-	}
-
-	.teacher-detail {
-    	font-size: 14px;
-	}
-
-	.job-title1, .job-title2, .job-title3 {
-		width: 140px;
-		padding: 0;
-	}
-	
 	.music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
-		padding-right: 4px; 
+		width: 49%;
+	}
+		
+	.teacher-name {
+		font-size: 16px;
+	}
+	
+	.teacher-detail {
+		font-size: 12px;
+	}
+	
+	.principle img, .dance-teacher img {
+	border-radius: 0 0 0 18%;
 	}
 
-	.human-img {
-		width: 54%;
-	    margin: -50px 95px;
+	.vince-principle img, .art-teacher img {
+		border-radius: 0 0 18% 0;
 	}
 
-	.human-img img {
-    	width: 65%;
+	.math-teacher img, .language-teacher img {
+		border-radius: 0 0 18% 18%;
+	}
+
+	.music-teacher img, .painting-teacher img {
+		border-radius: 0 0 18% 18%;
+	}
+
+	.principle:hover .job-title1, .vince-principle:hover .job-title2, .dance-teacher:hover .job-title1, .art-teacher:hover .job-title2, .math-teacher:hover .job-title3, .painting-teacher:hover .job-title3, .language-teacher:hover .job-title3, .music-teacher:hover .job-title3 {
+		bottom: -7px;
+		width: 105%;
+		min-height: 30px;
+		text-align: center;
+		padding-top: 5px;
+		margin-left: -7px;
+		transition: 0.5s ease-in-out;
 	}
 
 	.cover-ah-img {
-	    padding: 85px 0;
-	    background-size: 67%;
-	    height: 0px;
-	}
-	
-	.about-human {
-	    height: 600px;
+		min-height: 90px;
+		background-size: auto 80%;
 	}
 
-	.about-human-bg {
-	    height: 490px;
+	.human-img {
+	    margin: 0 auto;
+    	width: 50%;
+	}
+
+	.human-img img {
+		width: 75%;
 	}
 
 	.about-human-title {
-	    font-size: 24px;
+		font-size: 24px;
 	}
 
 	.about-human-detail {
-	    width: 100%;
-	    margin: 0 auto;
-	    font-size: 14px;
-	    text-align: justify;
-	}
-	
-	.dot-abj {
-	    margin: 25px 5px;
-	    height: 10px;
-	    width: 10px;
+		width: 100%;
+		margin: 0;
+		font-size: 14px;
+		text-align: justify;
+		margin: 1.5em 0;
 	}
 
 	.nb-title {
 		font-size: 24px;
 	}
-	
-	.nb-listnews li a {
-	    font-size: 12px;
+
+	.nb-detail {
+		font-size: 14px;
 	}
-	
+	.nb-info {
+		font-size: 12px;
+	}
+	.nb-listnews {
+		width: 100%;
+	}
+
+	.nb-listnews li a {
+		font-size: 14px;
+	}
+
 	.space hr {
 		display: none;
 	}
@@ -370,124 +303,1675 @@
 	}
 
 	.nb-news img {
-    	width: 100%;
-    	height: auto;
-    }
-
-    .date-news {
-		font-size: 12px;
-		line-height: 20px;
-    }
-
-    .news-detail {
-		font-size: 14px;
-    }
-
-	.top-bg {
-		height: 230px;
-		background-position: unset;
+		min-height: auto;
 	}
 
+	.date-news {
+		font-size: 12px;
+		line-height: 1em;
+	}
+
+	.news-detail {
+		font-size: 14px;
+	}
+
+	.nb-detail {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+
+	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
+	    width: 48%;
+	    padding-left: 5px;
+	}
+	.top-bg {
+		min-height: 200px;
+		background-size: auto 100%;
+	}
+	.cloud-bg {
+	    min-height: 154px;
+	    margin-top: -153px;
+	}
+	.footer-top-left {
+		width: 100%;
+	}
+	.footer-top-right {
+		width: 100%;
+	}
 	.signupfornews {
 		font-size: 14px;
 	}
-
-    .footer-top-left, .footer-mid-address, .footer-mid-insta, .footer-top-right, .insta-img {
-	    width: 100%;
-	}
-
 	.footer-top-right button {
 	    font-size: 12px;
-	    width: 36%;
+	    min-height: 35px;
+	    width: 30%;
 	}
-
 	.footer-top-right input {
 	    font-size: 12px;
-	    width: 56%;
+	    min-height: 31px;
+	    width: 62%;
 	}
-
-	.bottom-bg {
-		background-size: 100%;
-		height: 60px;
+	.footer-mid-address {
+		width: 57%;
 	}
-
-	.footer-mid {
-		padding-top: 35px;
-	}
-
 	.footer-mid-quicklink {
-		width: 100%;
-	    padding-top: 20px;
+		width: 43%;
 	}
-
+	.footer-mid-insta, .insta-img {
+		width: 100%;
+	}
 	.fma-head, .footer-detail-head {
 		font-size: 14px;
 	}
-
-	.footer-mid li, .footer-detail, .footer-mid li a {
-		font-size: 12px;
-	}
-
 	.insta {
-		width: 100%;
 		font-size: 14px;
 		text-align: left;
 	}
-
 	.insta-img img {
 		width: 60px;
-		height: 60px;
-		margin-top: 15px;
+		min-height: 60px;
 	}
-
+	.footer-detail, .footer-mid li a {
+		font-size: 12px;
+	}
+	.footer-mid li {
+		font-size: 12px;
+	}
 	.copyright {
-		width: 100%;
-		font-size: 10px;
-		padding-right: 0;
+		width: 70%;
+		font-size: 12px;
 	}
-
 	.footer-bottom img {
-		display: none;
+		width: 65%;
+		margin: 1em auto;
 	}
-
 	.footerlink {
-	    width: 100%;
-	    padding: 10px 0;
+		width: 100%;
+		padding: 0 0 1.5em 0;
 	}
 
 	.footerlink i {
-    	font-size: 24px;
-    	padding: 10px 10px;
+	    font-size: 24px;
+	    padding: 0 0.4em;
+	}
+	.bottom-bg {
+	    min-height: 60px;
+	    background-size: 100% auto;
 	}
 }
 
-/*@media screen and (min-width: 321px) and(max-width: 500px) {
+@media screen and (min-width: 321px) and (max-width: 480px)  {
 	.container {
-		width: 100%;
-		margin: 0 auto;
+		margin: 0 1em;
 	}
 	.header-logo {
 		width: 40%;
 	}
-}*/
+	
+	.header-detail {
+		width: 60%;
+	}
 
-/*@media screen and (min-width: 501px) {
-	.container {
-	width: 80%;
-	margin: 0 auto;
+	.header-detail hr {
+		display: none;
+	}
+
+	.contact {
+		padding-top: 25px;
+	}
+
+	.lf-header {
+		display: none;
+	}
+	
+	.search-box {
+		width: 100%;
+		padding-bottom: 0.5em;
+	}
+
+	.rt-header {
+		width: 100%;
+	}
+
+	.res-log {
+		width: 100%;
+	}
+	
+	#input-search {
+		font-size: 14px;
+	}
+
+	.search-detail:hover #input-search {
+		width: 80px;
+	}
+
+	#input-search:focus {
+		width: 80px;
+	}
+	.res-log li {
+		padding: 0 0.2em 0 2em;
+	}
+	.res-log li i {
+		display: none;
+	}
+
+	.btn-sm-menu {
+		display: block;
+		float: right;
+	}
+	
+	.main-menu {
+		display: none;
+	}
+
+	.rt-home li {
+		width: 100%;
+		text-align: right;
+		line-height: 1.3em;
+	}
+
+	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
+		width: 100%;
+	}
+	
+	.PLG-rt-content {
+		padding-top: 2em;
+	}
+
+	.play-learn-grow {
+		width: 100%;
+		font-size: 36px;
+		text-align: right;		
+	}
+	
+	.YNP {
+		width: 100%;
+		font-size: 24px;
+		text-align: right;
+	}
+
+	.btn-admit {
+		width: 50%;
+		font-size: 14px;
+	}
+
+	.lf-welcome {
+		width: 100%;
+	}
+	
+	.title-welcome {
+		font-size: 20px;
+	}
+	
+	.kidz {
+		font-size: 24px;
+	}
+
+	.welcome-content {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.rt-welcome {
+		width: 100%;
+	}
+
+	.rt-welcome img {
+		width: 100%;
+	}
+
+	.btn-readmore {
+		font-size: 14px;
+	}
+
+	.featured-courses {
+    	min-height: 2690px;
+	}
+
+	.fc-headtitle {
+		font-size: 24px;
+	}
+
+	.fc-title p {
+		width: 100%;
+		font-size: 12px;
+	}
+	
+	.fc-content {
+		flex-wrap: wrap;
+		padding-bottom: 2.75em;
+	}
+
+	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.fc-class-detail {
+		max-width: 238px;
+		min-height: 240px;
+		margin: 0 auto;
+	}
+
+	.class-type {
+		font-size: 12px;
+	}
+
+	.fc-class-name {
+		font-size: 16px;
+	}
+
+	.fc-class-descrip {
+		font-size: 12px;
+	}
+
+	.fc-eng-class img, .fc-painting-class img, .fc-math-class img, .fc-tech img {
+    	max-width: 278px;
+    	margin: 0 auto;
+	}
+	
+	.thumbnail-ec, .thumbnail-pc, .thumbnail-mc, .thumbnail-t {
+		max-width: 278px;
+		margin: 0 auto;
+	}
+
+	.applylink {
+		font-size: 14px;
+	}
+
+	.btn-view-courses {
+		font-size: 14px;
+	}
+
+	.school-facilities {
+		min-height: 860px;
+	}
+
+	.sf-lf, .sf-lf img, .sf-rt {
+		width: 100%;
+		max-width: 416px;
+	}
+	
+	.sf-rt {
+		margin: 0.5em 0;
+	}
+
+	.sf-lf-title {
+		font-size: 24px;
+	}
+	
+	.sf-lf p {
+		font-size: 12px;
+	}
+
+	.icon {
+		margin: 0.5em;
+		font-size: 12px;
+		width: 25vw;
+		height: 25vw;
+	}
+
+	.icon:after {
+		content: "";
+		display: block;
+		padding-bottom: 100%;
+	}
+
+	.icon img {
+		padding-top: 3.7vw;
+		width: 50%;
+	}
+
+	.teachers-head-title {
+		width: 100%;
+		font-size: 24px;
+	}
+	
+	.teacher-head-detail {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
+		width: 49%;
+	}
+		
+	.teacher-name {
+		font-size: 16px;
+	}
+	
+	.teacher-detail {
+		font-size: 12px;
+	}
+	
+	.principle img, .dance-teacher img {
+	border-radius: 25% 25% 0 25%;
+	}
+
+	.vince-principle img, .art-teacher img {
+		border-radius: 25% 25% 25% 0;
+	}
+
+	.math-teacher img, .language-teacher img {
+		border-radius: 25% 0 25% 25%;
+	}
+
+	.music-teacher img, .painting-teacher img {
+		border-radius: 0 25% 25% 25%;
+	}
+
+	.principle:hover .job-title1, .vince-principle:hover .job-title2, .dance-teacher:hover .job-title1, .art-teacher:hover .job-title2, .math-teacher:hover .job-title3, .painting-teacher:hover .job-title3, .language-teacher:hover .job-title3, .music-teacher:hover .job-title3 {
+		bottom: -7px;
+		width: 105%;
+		min-height: 30px;
+		text-align: center;
+		padding-top: 5px;
+		margin-left: -7px;
+		transition: 0.5s ease-in-out;
+	}
+
+	.cover-ah-img {
+		min-height: 90px;
+		background-size: auto 80%;
+	}
+
+	.human-img {
+	    margin: 0 auto;
+    	width: 50%;
+	}
+
+	.human-img img {
+		width: 75%;
+	}
+
+	.about-human-title {
+		font-size: 24px;
+	}
+
+	.about-human-detail {
+		width: 100%;
+		margin: 0;
+		font-size: 14px;
+		text-align: justify;
+		margin: 1.5em 0;
+	}
+
+	.nb-title {
+		font-size: 24px;
+	}
+
+	.nb-detail {
+		font-size: 14px;
+	}
+	.nb-info {
+		font-size: 12px;
+	}
+	.nb-listnews {
+		width: 100%;
+	}
+
+	.nb-listnews li a {
+		font-size: 14px;
+	}
+
+	.space hr {
+		display: none;
+	}
+
+	.nb-news {
+		width: 100%;
+	}
+
+	.nb-news img {
+		min-height: auto;
+	}
+
+	.date-news {
+		font-size: 12px;
+		line-height: 1em;
+	}
+
+	.news-detail {
+		font-size: 14px;
+	}
+
+	.nb-detail {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+
+	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
+	    width: 44%;
+	    padding-left: 1.5em;
+	}
+	.top-bg {
+		min-height: 200px;
+		background-size: auto 100%;
+	}
+	.cloud-bg {
+	    min-height: 154px;
+	    margin-top: -153px;
+	}
+	.footer-top-left {
+		width: 100%;
+	}
+	.footer-top-right {
+		width: 100%;
+	}
+	.signupfornews {
+		font-size: 14px;
+	}
+	.footer-top-right button {
+	    font-size: 12px;
+	    min-height: 35px;
+	    width: 30%;
+	}
+	.footer-top-right input {
+	    font-size: 12px;
+	    min-height: 31px;
+	    width: 62%;
+	}
+	.footer-mid-address {
+		width: 57%;
+	}
+	.footer-mid-quicklink {
+		width: 43%;
+	}
+	.footer-mid-insta, .insta-img {
+		width: 100%;
+	}
+	.fma-head, .footer-detail-head {
+		font-size: 14px;
+	}
+	.insta {
+		font-size: 14px;
+		text-align: left;
+	}
+	.insta-img img {
+		width: 60px;
+		min-height: 60px;
+	}
+	.footer-detail, .footer-mid li a {
+		font-size: 12px;
+	}
+	.footer-mid li {
+		font-size: 12px;
+	}
+	.copyright {
+		width: 100%;
+		font-size: 12px;
+		padding-right: 0;
+	}
+	.footer-bottom img {
+		width: 65%;
+		margin: 1em auto;
+	}
+	.footerlink {
+		width: 100%;
+		padding: 0 0 1.5em 0;
+	}
+
+	.footerlink i {
+	    font-size: 24px;
+	    padding: 0 4.2vw;
+	}
+	.bottom-bg {
+	    min-height: 100px;
+	    background-size: 100% auto;
 	}
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 481px) and (max-width: 600px)  {
 	.container {
-	width: 90%;
-	margin: 0 auto;
+		margin: 0 1em;
 	}
-}*/
+	.header-logo {
+		width: 40%;
+	}
+	
+	.header-detail {
+		width: 60%;
+	}
 
-/*@media screen and (min-width: 1140px) {
-	.container {
-	width: 1140px;
-	margin: 0 auto;
+	.header-detail hr {
+		display: none;
 	}
-}*/
+
+	.contact {
+		padding-top: 25px;
+	}
+
+	.lf-header {
+		display: none;
+	}
+	
+	.search-box {
+		width: 100%;
+		padding-bottom: 0.5em;
+	}
+
+	.rt-header {
+		width: 100%;
+	}
+
+	.res-log {
+		width: 92%;
+	}
+	
+	#input-search {
+		font-size: 16px;
+	}
+
+	.search-detail:hover #input-search {
+		width: 100px;
+	}
+
+	#input-search:focus {
+		width: 100px;
+	}
+	.res-log li {
+		padding: 0 0.2em 0 3em;
+	}
+	.res-log li i {
+		display: none;
+	}
+
+	.btn-sm-menu {
+		display: block;
+		float: right;
+	}
+	
+	.main-menu {
+		display: none;
+	}
+
+	.rt-home li {
+		width: 100%;
+		text-align: right;
+		line-height: 1.3em;
+	}
+
+	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
+		width: 100%;
+	}
+	
+	.PLG-rt-content {
+		padding-top: 2em;
+	}
+
+	.play-learn-grow {
+		width: 100%;
+		font-size: 48px;
+		text-align: right;		
+	}
+	
+	.YNP {
+		width: 100%;
+		font-size: 30px;
+		text-align: right;
+	}
+
+	.btn-admit {
+		width: 50%;
+		font-size: 14px;
+	}
+
+	.lf-welcome {
+		width: 100%;
+	}
+	
+	.title-welcome {
+		font-size: 24px;
+	}
+	
+	.kidz {
+		font-size: 30px;
+	}
+
+	.welcome-content {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.rt-welcome {
+		width: 100%;
+	}
+
+	.rt-welcome img {
+		width: 100%;
+	}
+
+	.btn-readmore {
+		font-size: 14px;
+	}
+
+	.featured-courses {
+    	min-height: 2500px;
+	}
+
+	.fc-headtitle {
+		font-size: 24px;
+	}
+
+	.fc-title p {
+		width: 100%;
+		font-size: 12px;
+	}
+	
+	.fc-content {
+		flex-wrap: wrap;
+		padding-bottom: 2.75em;
+	}
+
+	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.fc-class-detail {
+		width: 83%;
+		min-height: 240px;
+	}
+
+	.class-type {
+		font-size: 12px;
+	}
+
+	.fc-class-name {
+		font-size: 16px;
+	}
+
+	.fc-class-descrip {
+		font-size: 12px;
+	}
+
+	.applylink {
+		font-size: 14px;
+	}
+
+	.btn-view-courses {
+		font-size: 14px;
+	}
+
+	.school-facilities {
+		min-height: 801px;
+	}
+
+	.sf-lf, .sf-lf img, .sf-rt {
+		width: 100%;
+	}
+	
+	.sf-rt {
+		margin: 2.5em 0;
+	}
+
+	.sf-lf-title {
+		font-size: 24px;
+	}
+	
+	.sf-lf p {
+		font-size: 12px;
+	}
+
+	.icon {
+		margin: 0.5em;
+		font-size: 12px;
+		width: 15vh;
+		height: 15vh;
+	}
+
+	.icon img {
+		padding-top: 0.7em;
+		width: 50%;
+	}
+
+	.teachers-head-title {
+		width: 100%;
+		font-size: 24px;
+	}
+	
+	.teacher-head-detail {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
+		width: 49%;
+	}
+		
+	.teacher-name {
+		font-size: 16px;
+	}
+	
+	.teacher-detail {
+		font-size: 12px;
+	}
+
+	.principle:hover .job-title1, .vince-principle:hover .job-title2, .dance-teacher:hover .job-title1, .art-teacher:hover .job-title2, .math-teacher:hover .job-title3, .painting-teacher:hover .job-title3, .language-teacher:hover .job-title3, .music-teacher:hover .job-title3 {
+		bottom: -7px;
+		width: 105%;
+		min-height: 30px;
+		text-align: center;
+		padding-top: 5px;
+		margin-left: -7px;
+		transition: 0.5s ease-in-out;
+	}
+
+	.cover-ah-img {
+		min-height: 90px;
+		background-size: auto 80%;
+	}
+
+	.human-img {
+	    margin: 0 auto;
+    	width: 50%;
+	}
+
+	.human-img img {
+		width: 100%;
+	}
+
+	.about-human-title {
+		font-size: 24px;
+	}
+
+	.about-human-detail {
+		width: 100%;
+		margin: 0;
+		font-size: 14px;
+		text-align: justify;
+		margin: 1.5em 0;
+	}
+
+	.nb-title {
+		font-size: 24px;
+	}
+
+	.nb-detail {
+		font-size: 14px;
+	}
+	.nb-info {
+		font-size: 12px;
+	}
+	.nb-listnews {
+		width: 100%;
+	}
+
+	.nb-listnews li a {
+		font-size: 14px;
+	}
+
+	.space hr {
+		display: none;
+	}
+
+	.nb-news {
+		width: 100%;
+	}
+
+	.nb-news img {
+		min-height: auto;
+	}
+
+	.date-news {
+		font-size: 12px;
+		line-height: 1em;
+	}
+
+	.news-detail {
+		font-size: 14px;
+	}
+
+	.nb-detail {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+
+	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
+	    width: 48%;
+	    padding-left: 5px;
+	}
+	.top-bg {
+		min-height: 200px;
+		background-size: auto 100%;
+	}
+	.cloud-bg {
+	    min-height: 154px;
+	    margin-top: -153px;
+	}
+	.footer-top-left {
+		width: 100%;
+	}
+	.footer-top-right {
+		width: 100%;
+	}
+	.signupfornews {
+		font-size: 14px;
+	}
+	.footer-top-right button {
+	    font-size: 12px;
+	    min-height: 35px;
+	    width: 30%;
+	}
+	.footer-top-right input {
+	    font-size: 12px;
+	    min-height: 31px;
+	    width: 62%;
+	}
+	.footer-mid-address {
+		width: 57%;
+	}
+	.footer-mid-quicklink {
+		width: 43%;
+	}
+	.footer-mid-insta, .insta-img {
+		width: 100%;
+	}
+	.fma-head, .footer-detail-head {
+		font-size: 14px;
+	}
+	.insta {
+		font-size: 14px;
+		text-align: left;
+	}
+	.insta-img img {
+		width: 60px;
+		min-height: 60px;
+	}
+	.footer-detail, .footer-mid li a {
+		font-size: 12px;
+	}
+	.footer-mid li {
+		font-size: 12px;
+	}
+	.copyright {
+		width: 70%;
+		font-size: 12px;
+	}
+	.footer-bottom img {
+		width: 65%;
+		max-width: 273px;
+		margin: 1em auto;
+	}
+	.footerlink {
+		width: 100%;
+		padding: 0 0 1.5em 0;
+	}
+
+	.footerlink i {
+	    font-size: 24px;
+	    padding: 0 0.4em;
+	}
+	.bottom-bg {
+	    min-height: 60px;
+	    background-size: 100% auto;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 748px)  {
+	.container {
+		margin: 0 1em;
+	}
+	.header-logo {
+		width: 40%;
+	}
+	
+	.header-detail {
+		width: 60%;
+	}
+
+	.header-detail hr {
+		display: none;
+	}
+
+	.contact {
+		padding-top: 25px;
+	}
+
+	.lf-header {
+		display: none;
+	}
+	
+	.search-box {
+		width: 100%;
+		padding-bottom: 0.5em;
+	}
+
+	.rt-header {
+		width: 100%;
+	}
+
+	.res-log {
+		width: 92%;
+	}
+	
+	#input-search {
+		font-size: 14px;
+	}
+
+	.search-detail:hover #input-search {
+		width: 70px;
+	}
+
+	#input-search:focus {
+		width: 70px;
+	}
+	.res-log li {
+		padding: 0 0.8em;
+	}
+	.res-log li i {
+		display: none;
+	}
+
+	.btn-sm-menu {
+		display: block;
+		float: right;
+	}
+	
+	.main-menu {
+		display: none;
+	}
+
+	.rt-home li {
+		width: 100%;
+		text-align: right;
+		line-height: 1.3em;
+	}
+
+	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
+		width: 100%;
+	}
+	
+	.PLG-rt-content {
+		padding-top: 2em;
+	}
+
+	.play-learn-grow {
+		width: 100%;
+		font-size: 36px;
+		text-align: right;		
+	}
+	
+	.YNP {
+		width: 100%;
+		font-size: 24px;
+		text-align: right;
+	}
+
+	.btn-admit {
+		width: 50%;
+		font-size: 14px;
+	}
+
+	.lf-welcome {
+		width: 100%;
+	}
+	
+	.title-welcome {
+		font-size: 20px;
+	}
+	
+	.kidz {
+		font-size: 24px;
+	}
+
+	.welcome-content {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.rt-welcome {
+		width: 100%;
+	}
+
+	.rt-welcome img {
+		width: 100%;
+	}
+
+	.btn-readmore {
+		font-size: 14px;
+	}
+
+	.featured-courses {
+    	min-height: 2500px;
+	}
+
+	.fc-headtitle {
+		font-size: 24px;
+	}
+
+	.fc-title p {
+		width: 100%;
+		font-size: 12px;
+	}
+	
+	.fc-content {
+		flex-wrap: wrap;
+		padding-bottom: 2.75em;
+	}
+
+	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.fc-class-detail {
+		width: 83%;
+		min-height: 240px;
+	}
+
+	.class-type {
+		font-size: 12px;
+	}
+
+	.fc-class-name {
+		font-size: 16px;
+	}
+
+	.fc-class-descrip {
+		font-size: 12px;
+	}
+
+	.applylink {
+		font-size: 14px;
+	}
+
+	.btn-view-courses {
+		font-size: 14px;
+	}
+
+	.school-facilities {
+		min-height: 801px;
+	}
+
+	.sf-lf, .sf-lf img, .sf-rt {
+		width: 100%;
+	}
+	
+	.sf-rt {
+		margin: 2.5em 0;
+	}
+
+	.sf-lf-title {
+		font-size: 24px;
+	}
+	
+	.sf-lf p {
+		font-size: 12px;
+	}
+
+	.icon {
+		margin: 0.5em;
+		font-size: 12px;
+		width: 15vh;
+		height: 15vh;
+	}
+
+	.icon img {
+		padding-top: 0.7em;
+		width: 50%;
+	}
+
+	.teachers-head-title {
+		width: 100%;
+		font-size: 24px;
+	}
+	
+	.teacher-head-detail {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
+		width: 49%;
+	}
+		
+	.teacher-name {
+		font-size: 16px;
+	}
+	
+	.teacher-detail {
+		font-size: 12px;
+	}
+
+	.principle:hover .job-title1, .vince-principle:hover .job-title2, .dance-teacher:hover .job-title1, .art-teacher:hover .job-title2, .math-teacher:hover .job-title3, .painting-teacher:hover .job-title3, .language-teacher:hover .job-title3, .music-teacher:hover .job-title3 {
+		bottom: -7px;
+		width: 105%;
+		min-height: 30px;
+		text-align: center;
+		padding-top: 5px;
+		margin-left: -7px;
+		transition: 0.5s ease-in-out;
+	}
+
+	.cover-ah-img {
+		min-height: 90px;
+		background-size: auto 80%;
+	}
+
+	.human-img {
+	    margin: 0 auto;
+    	width: 50%;
+	}
+
+	.human-img img {
+		width: 100%;
+	}
+
+	.about-human-title {
+		font-size: 24px;
+	}
+
+	.about-human-detail {
+		width: 100%;
+		margin: 0;
+		font-size: 14px;
+		text-align: justify;
+		margin: 1.5em 0;
+	}
+
+	.nb-title {
+		font-size: 24px;
+	}
+
+	.nb-detail {
+		font-size: 14px;
+	}
+	.nb-info {
+		font-size: 12px;
+	}
+	.nb-listnews {
+		width: 100%;
+	}
+
+	.nb-listnews li a {
+		font-size: 14px;
+	}
+
+	.space hr {
+		display: none;
+	}
+
+	.nb-news {
+		width: 100%;
+	}
+
+	.nb-news img {
+		min-height: auto;
+	}
+
+	.date-news {
+		font-size: 12px;
+		line-height: 1em;
+	}
+
+	.news-detail {
+		font-size: 14px;
+	}
+
+	.nb-detail {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+
+	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
+	    width: 48%;
+	    padding-left: 5px;
+	}
+	.top-bg {
+		min-height: 200px;
+		background-size: auto 100%;
+	}
+	.footer-top-left {
+		width: 100%;
+	}
+	.footer-top-right {
+		width: 100%;
+	}
+	.signupfornews {
+		font-size: 14px;
+	}
+	.footer-top-right button {
+	    font-size: 12px;
+	    min-height: 35px;
+	    width: 30%;
+	}
+	.footer-top-right input {
+	    font-size: 12px;
+	    min-height: 31px;
+	    width: 62%;
+	}
+	.footer-mid-address {
+		width: 57%;
+	}
+	.footer-mid-quicklink {
+		width: 43%;
+	}
+	.footer-mid-insta, .insta-img {
+		width: 100%;
+	}
+	.fma-head, .footer-detail-head {
+		font-size: 14px;
+	}
+	.insta {
+		font-size: 14px;
+		text-align: left;
+	}
+	.insta-img img {
+		width: 60px;
+		min-height: 60px;
+	}
+	.footer-detail, .footer-mid li a {
+		font-size: 12px;
+	}
+	.footer-mid li {
+		font-size: 12px;
+	}
+	.copyright {
+		width: 70%;
+		font-size: 12px;
+	}
+	.footer-bottom img {
+		width: 65%;
+		margin: 1em auto;
+	}
+	.footerlink {
+		width: 100%;
+		padding: 0 0 1.5em 0;
+	}
+
+	.footerlink i {
+	    font-size: 24px;
+	    padding: 0 0.4em;
+	}
+	.bottom-bg {
+	    min-height: 60px;
+	    background-size: 100% auto;
+	}
+}
+
+@media screen and (min-width: 749px) and (max-width: 1024px)  {
+	.container {
+		margin: 0 1em;
+	}
+	.header-logo {
+		width: 40%;
+	}
+	
+	.header-detail {
+		width: 60%;
+	}
+
+	.header-detail hr {
+		display: none;
+	}
+
+	.contact {
+		padding-top: 25px;
+	}
+
+	.lf-header {
+		display: none;
+	}
+	
+	.search-box {
+		width: 100%;
+		padding-bottom: 0.5em;
+	}
+
+	.rt-header {
+		width: 100%;
+	}
+
+	.res-log {
+		width: 92%;
+	}
+	
+	#input-search {
+		font-size: 14px;
+	}
+
+	.search-detail:hover #input-search {
+		width: 70px;
+	}
+
+	#input-search:focus {
+		width: 70px;
+	}
+	.res-log li {
+		padding: 0 0.8em;
+	}
+	.res-log li i {
+		display: none;
+	}
+
+	.btn-sm-menu {
+		display: block;
+		float: right;
+	}
+	
+	.main-menu {
+		display: none;
+	}
+
+	.rt-home li {
+		width: 100%;
+		text-align: right;
+		line-height: 1.3em;
+	}
+
+	.PLG-lf-content, .PLG-lf-content img, .PLG-rt-content {
+		width: 100%;
+	}
+	
+	.PLG-rt-content {
+		padding-top: 2em;
+	}
+
+	.play-learn-grow {
+		width: 100%;
+		font-size: 36px;
+		text-align: right;		
+	}
+	
+	.YNP {
+		width: 100%;
+		font-size: 24px;
+		text-align: right;
+	}
+
+	.btn-admit {
+		width: 50%;
+		font-size: 14px;
+	}
+
+	.lf-welcome {
+		width: 100%;
+	}
+	
+	.title-welcome {
+		font-size: 20px;
+	}
+	
+	.kidz {
+		font-size: 24px;
+	}
+
+	.welcome-content {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.rt-welcome {
+		width: 100%;
+	}
+
+	.rt-welcome img {
+		width: 100%;
+	}
+
+	.btn-readmore {
+		font-size: 14px;
+	}
+
+	.featured-courses {
+    	min-height: 2500px;
+	}
+
+	.fc-headtitle {
+		font-size: 24px;
+	}
+
+	.fc-title p {
+		width: 100%;
+		font-size: 12px;
+	}
+	
+	.fc-content {
+		flex-wrap: wrap;
+		padding-bottom: 2.75em;
+	}
+
+	.fc-eng-class, .fc-painting-class, .fc-math-class, .fc-tech {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.fc-class-detail {
+		width: 83%;
+		min-height: 240px;
+	}
+
+	.class-type {
+		font-size: 12px;
+	}
+
+	.fc-class-name {
+		font-size: 16px;
+	}
+
+	.fc-class-descrip {
+		font-size: 12px;
+	}
+
+	.applylink {
+		font-size: 14px;
+	}
+
+	.btn-view-courses {
+		font-size: 14px;
+	}
+
+	.school-facilities {
+		min-height: 801px;
+	}
+
+	.sf-lf, .sf-lf img, .sf-rt {
+		width: 100%;
+	}
+	
+	.sf-rt {
+		margin: 2.5em 0;
+	}
+
+	.sf-lf-title {
+		font-size: 24px;
+	}
+	
+	.sf-lf p {
+		font-size: 12px;
+	}
+
+	.icon {
+		margin: 0.5em;
+		font-size: 12px;
+		width: 15vh;
+		height: 15vh;
+	}
+
+	.icon img {
+		padding-top: 0.7em;
+		width: 50%;
+	}
+
+	.teachers-head-title {
+		width: 100%;
+		font-size: 24px;
+	}
+	
+	.teacher-head-detail {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.music-teacher, .language-teacher, .vince-principle, .math-teacher, .painting-teacher, .art-teacher, .dance-teacher, .principle {
+		width: 49%;
+	}
+		
+	.teacher-name {
+		font-size: 16px;
+	}
+	
+	.teacher-detail {
+		font-size: 12px;
+	}
+
+	.principle:hover .job-title1, .vince-principle:hover .job-title2, .dance-teacher:hover .job-title1, .art-teacher:hover .job-title2, .math-teacher:hover .job-title3, .painting-teacher:hover .job-title3, .language-teacher:hover .job-title3, .music-teacher:hover .job-title3 {
+		bottom: -7px;
+		width: 105%;
+		min-height: 30px;
+		text-align: center;
+		padding-top: 5px;
+		margin-left: -7px;
+		transition: 0.5s ease-in-out;
+	}
+
+	.cover-ah-img {
+		min-height: 90px;
+		background-size: auto 80%;
+	}
+
+	.human-img {
+	    margin: 0 auto;
+    	width: 50%;
+	}
+
+	.human-img img {
+		width: 100%;
+	}
+
+	.about-human-title {
+		font-size: 24px;
+	}
+
+	.about-human-detail {
+		width: 100%;
+		margin: 0;
+		font-size: 14px;
+		text-align: justify;
+		margin: 1.5em 0;
+	}
+
+	.nb-title {
+		font-size: 24px;
+	}
+
+	.nb-detail {
+		font-size: 14px;
+	}
+	.nb-info {
+		font-size: 12px;
+	}
+	.nb-listnews {
+		width: 100%;
+	}
+
+	.nb-listnews li a {
+		font-size: 14px;
+	}
+
+	.space hr {
+		display: none;
+	}
+
+	.nb-news {
+		width: 100%;
+	}
+
+	.nb-news img {
+		min-height: auto;
+	}
+
+	.date-news {
+		font-size: 12px;
+		line-height: 1em;
+	}
+
+	.news-detail {
+		font-size: 14px;
+	}
+
+	.nb-detail {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+
+	.nb-address, .nb-notice-board, .nb-office-hour, .nb-admission {
+	    width: 48%;
+	    padding-left: 5px;
+	}
+	.top-bg {
+		min-height: 200px;
+		background-size: auto 100%;
+	}
+	.footer-top-left {
+		width: 100%;
+	}
+	.footer-top-right {
+		width: 100%;
+	}
+	.signupfornews {
+		font-size: 14px;
+	}
+	.footer-top-right button {
+	    font-size: 12px;
+	    min-height: 35px;
+	    width: 30%;
+	}
+	.footer-top-right input {
+	    font-size: 12px;
+	    min-height: 31px;
+	    width: 62%;
+	}
+	.footer-mid-address {
+		width: 57%;
+	}
+	.footer-mid-quicklink {
+		width: 43%;
+	}
+	.footer-mid-insta, .insta-img {
+		width: 100%;
+	}
+	.fma-head, .footer-detail-head {
+		font-size: 14px;
+	}
+	.insta {
+		font-size: 14px;
+		text-align: left;
+	}
+	.insta-img img {
+		width: 60px;
+		min-height: 60px;
+	}
+	.footer-detail, .footer-mid li a {
+		font-size: 12px;
+	}
+	.footer-mid li {
+		font-size: 12px;
+	}
+	.copyright {
+		width: 70%;
+		font-size: 12px;
+	}
+	.footer-bottom img {
+		width: 65%;
+		margin: 1em auto;
+	}
+	.footerlink {
+		width: 100%;
+		padding: 0 0 1.5em 0;
+	}
+
+	.footerlink i {
+	    font-size: 24px;
+	    padding: 0 0.4em;
+	}
+	.bottom-bg {
+	    min-height: 60px;
+	    background-size: 100% auto;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	
+}
